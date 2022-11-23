@@ -1,0 +1,18 @@
+[
+    {
+        "titulo":"Veterinario",
+        "universidad": "Universidad de Buenos Aires",
+        "años": "2003 - 2013",
+        "img": "img/"
+    },
+    {
+        "titulo":"Programador Web Inicial",
+        "universidad": "Universidad Tecnologica Nacional",
+        "años": "2021 - 2022"
+    },
+    {
+        "titulo":"Full Stack Developer",
+        "universidad": "Argentina Programa",
+        "años": "2021 - 2022"
+    }
+]

@@ -1,0 +1,165 @@
+/* ---------------------------------TODO---------------------------------- */
+*{
+    background-color: black;
+    color: white;       
+}
+/* body{
+    margin-top: 8%;
+} */
+.section{
+    width: 80%;
+    border-bottom: solid white 1px;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+/* -----------------------------------HEADER------------------------------------- */
+header{    
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20%;    
+}
+header img {
+    width: 150px;
+    height: auto;
+}
+
+.cabeza {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lista ul{
+    display: flex;    
+    align-items: center;    
+}
+.lista li {
+    display: inline-block;
+    list-style:none;
+    margin-left: 20px;
+    padding: 1%;
+    cursor: pointer;
+    border: solid 1px white;
+    border-radius: 20%;    
+    
+}
+.lista li a{
+    text-decoration: none;
+}
+.lista li:hover {
+    background-color: white;
+    color: black;
+}
+.lista li a:hover{
+    background-color: white;
+    color: black;
+}
+
+/* -----------------------------------DATOS PERSONALES------------------------------------- */
+main{
+    margin-top: 8%;
+}
+.datopersona{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: center;
+}
+#perfil{
+    vertical-align: middle;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.lengua{
+    display: inline-block;
+    margin-left: 20%;
+}
+.logos {
+    margin: 0px;
+    display: flex;
+    justify-content: space-evenly;
+    /* border-top: solid white 1px;
+    border-bottom: solid white 1px; */
+    padding: 10px 0px;
+    margin: 30px 0px;
+}
+.img {
+    width: auto;
+    height: 70px;
+}
+.study{
+    /* display: flex;     */
+    justify-content: space-between;
+    align-items: center;    
+    /* width: 80%; */
+    margin-left: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 25% 25% 25%;
+}
+.img2 {
+    width: auto;
+    height: 100px;
+}
+#uba {
+    padding-right: 10%;
+}
+/* -------------------------------------------Experiencia------------------------------------- */
+.cv{
+    color: coral;
+}
+.cv:hover{
+    animation-duration: 5s;
+    animation-name: agrandar;
+}
+@keyframes agrandar {
+    from {
+        font-size: 80px;
+    }
+    to {
+        font-size: large;
+    }    
+}
+/* --------------------------------------------Contacto form------------------------------------- */
+#contact{
+    overflow: hidden;
+    margin-left: 10%;
+}
+#mensaje{
+    width: 80%;
+    
+}
+.form{
+    width: 80%;
+    height: auto;
+}
+
+/* -------------------------------------------FOOTER--------------------------------------------- */
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+.footer i{
+color: green;
+}
+/* -------------------------------------------------MEDIA----------------------------------------------- */
+@media screen and (max-width: 900px) {
+	
+}
+
+@media screen and (max-width: 700px) {
+	
+}
+
+@media screen and (max-width: 600px) {
+.celu{
+    display: none;
+}
+}
