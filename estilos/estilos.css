@@ -93,23 +93,31 @@ main{
     height: 70px;
 }
 .study{
-    /* display: flex;     */
+    display: flex;    
     justify-content: space-between;
     align-items: center;    
-    /* width: 80%; */
+    width: 80%;
     margin-left: 5%;
-    display: grid;
+    /* display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 25% 25% 25%;
+    grid-template-rows: 25% 25% 25%; */
 }
 .img2 {
     width: auto;
     height: 100px;
 }
 #uba {
-    padding-right: 10%;
+    padding-left: 70%;
 }
 /* -------------------------------------------Experiencia------------------------------------- */
+.expe{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.move{
+    padding-right: 20%;
+}
 .cv{
     color: coral;
 }
